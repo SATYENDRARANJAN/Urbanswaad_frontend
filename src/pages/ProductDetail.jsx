@@ -127,7 +127,7 @@ class ProductDetail extends React.Component{
     getLaptopDisplay = (openM,openCart2M,order_id,props,ShareList,isMobile,addedToCart,setAddedToCart)=>{
         const {
             url = String(window.location),
-            title = "Urbanswaad Chocolates ~ If chocolates make you happy , I can make you happier!  ",
+            title = "Urbanswaad  ",
             size = "2.5rem",
           } = props;
         return(
@@ -205,7 +205,7 @@ class ProductDetail extends React.Component{
     getMobileDisplay =(openM,openCart2M,order_id,props,ShareList,isMobile,addedToCart,setAddedToCart)=>{
         const {
             url = String(window.location),
-            title = "Urbanswaad Chocolates ~ If chocolates make you happy , I can make you happier!  ",
+            title = "Urbanswaad ",
             shareImage = "https://www.steadylearner.com/static/images/brand/prop-passer.png",
             size = "2.5rem",
           } = props;
@@ -277,7 +277,7 @@ class ProductDetail extends React.Component{
     render(){
         const {
             url = String(window.location),
-            title = "Urbanswaad Chocolates ~ If chocolates make you happy , I can make you happier!  ",
+            title = "Urbanswaad ",
             shareImage = "https://www.steadylearner.com/static/images/brand/prop-passer.png",
             size = "2.5rem",
           } = this.props;
