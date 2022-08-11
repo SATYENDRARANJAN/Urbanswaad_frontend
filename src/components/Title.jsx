@@ -11,7 +11,7 @@ import { keyframes ,css} from 'styled-components'
 export  const Title = (props)=>{
     return (
         <TitleDiv width={props.width} color={props.color}>
-            Urbanswaad
+            PRATISHTHA GREH UDYOG
         </TitleDiv>
     )
 }   
@@ -77,13 +77,13 @@ export const AddToCartBtnTop = ({is_logged_in,openCartM,addedToCart})=>{
   
 
 const TitleDiv = styled.h2`
-    color: ${props => (props.color ? props.color : '#7b5734')};
+    color: ${props => (props.color ? props.color : 'grey')};
     text-align: left;
-    font-size:${props => (props.width >565? "50px":"20px")};
+    font-size:${props => (props.width >565? "100px":"20px")};
     max-width:${props =>(props.width >565?"auto":"auto")};
     margin-top:45px;
     margin-bottom:24px;
-    font-family:'Montserrat', sans-serif;
+    font-family:'Oswald', sans-serif;
     font-weight:590;
 `
 const MenuBar =styled.div`

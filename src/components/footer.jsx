@@ -112,10 +112,11 @@ const Root=styled.div`
 
 
 const FeaturesDiv = styled.div`
+
     display: flex;
     flex-direction:column;
     width: 100%;
-    max-width:500px;
+    // max-width:500px;
     // background-color:#eee;
 `
 

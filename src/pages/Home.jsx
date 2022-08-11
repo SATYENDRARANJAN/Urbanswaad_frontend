@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import React ,{useState,Component}from 'react'
-import banner from './../assets/images/Urbanswaadbanner.png'
+// import banner from './../assets/images/Urbanswaadbanner.png'
+import banner from './../assets/images/pgubanner.jpg'
 import {axiosInstance} from './../service/axiosservice.jsx'
 import placeholder from './../assets/images/placeholder.png'
 // import loader1 from './../assets/images/hearts.svg'
@@ -67,7 +68,7 @@ class Home extends React.Component{
 
         // })
         console.log("In CDM :",this.state.tag)
-        await axiosInstance.get("/shop/products/list/" + this.state.tag+'/').
+        await axiosInstance.get("/shop/products/list/" + this.state.tag).
           then(async(response)=> 
               {
                   console.log(response)
@@ -93,7 +94,7 @@ class Home extends React.Component{
                 {item.heading}
                 </ItemDescription>
                 <ItemSubtext>
-                {item.subtext}
+                &#8377 {item.price}
                 </ItemSubtext>
                 <View>View</View>
                 </ItemDiv>
@@ -225,6 +226,8 @@ const Banner = styled.img`
     background-image: url(${banner});
     height:150px;
     width:100%;
+    max-width: 100%;
+     max-height: 100%;
     display:flex;
     border: #4e4e4e;
     justify-content: center;
