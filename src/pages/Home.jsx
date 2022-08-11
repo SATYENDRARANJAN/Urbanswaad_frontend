@@ -94,7 +94,7 @@ class Home extends React.Component{
                 {item.heading}
                 </ItemDescription>
                 <ItemSubtext>
-                &#8377 {item.price}
+                &#8377; {item.price}
                 </ItemSubtext>
                 <View>View</View>
                 </ItemDiv>
