@@ -90,9 +90,9 @@ class Home extends React.Component{
                 <ItemName>
                 {item.product_name}
                 </ItemName>
-                <ItemDescription>
+                {/* <ItemDescription>
                 {item.heading}
-                </ItemDescription>
+                </ItemDescription> */}
                 <ItemSubtext>
                 &#8377; {item.price}
                 </ItemSubtext>
